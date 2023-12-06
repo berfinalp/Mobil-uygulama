@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Task" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/primaryLight</item>
+        <item name="colorSecondary">@color/colorSecondaryLight</item>
+        <item name="cardBackColor">@color/cardBackLight</item>
+        <item name="textInputFilledStyle">@style/Widget.App.FilledBox</item>
+    </style>
+
+    <style name="Theme.Task" parent="Base.Theme.Task" />
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Light Theme Colors -->
+        <item name="cardBackgroundColor">@color/light_card_background</item>
+
+
+        <!-- Other theme attributes for light theme -->
+
+    </style>
+
+    <style name="Widget.App.FilledBox" parent="Widget.Material3.TextInputEditText.FilledBox">
+        <!-- button style customization example -->
+
+        <item name="colorPrimary">@color/colorSecondaryLight</item>
+    </style>
+
+
+</resources>

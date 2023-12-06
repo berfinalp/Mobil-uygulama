@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Task" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/primaryDark</item>
+        <item name="colorSecondary">@color/colorSecondaryDark</item>
+<item name="cardBackColor">@color/cardBackDark</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+        <item name="textInputFilledStyle">@style/Widget.App.FilledBox</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <!-- button style customization example -->
+
+        <item name="android:textColor">@color/colorSecondaryDark</item>
+    </style>
+
+    <style name="Widget.App.FilledBox" parent="Widget.Material3.TextInputEditText.FilledBox">
+        <!-- button style customization example -->
+
+        <item name="colorPrimary">@color/colorSecondaryDark</item>
+    </style>
+
+
+
+</resources>
